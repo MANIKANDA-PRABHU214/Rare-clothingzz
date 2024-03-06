@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/login.css">
+</head>
+<script>
+   function demo(){
+    var email=document.mine.m.value;
+    var word=document.mine.p.value;
+    if(email==""||null||email==""){
+        
+    document.getElementById('em').style.border='2px solid rgba(255, 0, 0, 0.39)'
+        document.getElementById('err6').innerHTML="Please enter email";
+        return false;
+    }
+    else{
+        document.getElementById('em').style.border='2px solid green'
+        document.getElementById('err6').innerHTML="";  
+    }
+    if(word==""||null||word==""){
+        
+        document.getElementById('ps').style.border='2px solid rgba(255, 0, 0, 0.39)'
+            document.getElementById('err7').innerHTML="Please enter email";
+            return false;
+        }
+        else{
+            document.getElementById('ps').style.border='2px solid green'
+            document.getElementById('err7').innerHTML="";  
+        }
+   }
+    
+</script>
+<body background="img/loginbody.jpg">
+    <form id="login" name="mine" onsubmit="return demo()" action="Home.html">
+        <div id="log"><p class="log">Login Form</p></div><br><br>
+       <div class="email"><input id="em" type="email" placeholder="📧 Email Address" name="m"><p id="err6" style="color: red;"></p></div><br><br>
+       <div class="pass"><input id="ps" type="password" placeholder="🔑 Password" name="p"><p id="err7" style="color: red;"></p></div><br><br>
+       <div class="submit"><input id="sub" type="submit" value="L O G I N"> </div><br>
+       <a  id="ul"href="forgetpassword.html"><h5 id="me">Forget Password?</h5></a><br><br>
+      
+         </form><br>
+      <h4>@ R A R E C L O T H I N G Z Z</h4>
+   </body>
+</html>

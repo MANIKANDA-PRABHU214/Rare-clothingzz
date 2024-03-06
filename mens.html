@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/mens.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+ 
+<body>
+<!-- navbar? -->
+<div id="nav" style="position: relative;">
+  <a href="Home.html" id="home" style="font-size: 20px;">HOME</a>
+  <a href="mens.html" id="men" style="font-size: 20px;">MEN</a>
+  <a href="privacy.html" id="men" style="font-size: 20px;" >PRIVACY</a>
+  <a href="about.html" id="men" style="font-size: 20px;">ABOUT US</a>
+  <a href="contact.html" id="mens" style="font-size: 20px; text-decoration: none; margin-left: 140px; " >CONTACT</a>
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-left: 200px;" ><i class="bi bi-cart4" ><i style="font-size: medium;background-color: red;color: black;width: 4px;border-radius: 10px;" id="spn"></i></i>
+</i>
+cart
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Cart</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body ">
+        <div  id="main" style="display: none;">
+        <table >
+        <tr><img src="img/men12 (2).jpg" class="card-img-top" alt="..." style="border-radius: 10px;"id="img"><td style="color: black;">HoodeI In WhitE <br>RS 500</td></tr><tr>Quantity<input type="number" style="height: 35px;width: 35px;"><tr><button style="border: none; " onclick="btn()"><i class="bi bi-x-lg" style="size: 20px;"></button></i></tr><td><a href="cart.html"><button type="button" class="btn btn-primary">Place order</button></a></td></table></div>
+     
+      <div  id="main1" style="display: none;">
+        <table >
+          <tr><img src="img/men21.jpg" class="card-img-top" alt="..." style="border-radius: 10px;"id="img"><td style="color: black;">OverSized T-shrt Just In <br>RS 500</td></tr><tr>Quantity<input type="number" style="height: 35px;width: 35px;"><tr><button style="border: none; " onclick="btn1()"><i class="bi bi-x-lg" style="size: 20px;"></button></i></tr><td><a href="cart.html"><button type="button" class="btn btn-primary">Place order</button></a></td></table></div>
+      
+      <div  id="main2" style="display: none;">
+        <table >
+      <tr><img src="img/men31.jpg" class="card-img-top" alt="..." style="border-radius: 10px;"id="img"><td style="color: black;">Yellow pant and Shirt LycrA  <br>RS 500</td></tr><tr>Quantity<input type="number" style="height: 35px;width: 35px;"><tr><button style="border: none; " onclick="btn2()"><i class="bi bi-x-lg" style="size: 20px;"></button></i></tr><td><a href="cart.html"><button type="button" class="btn btn-primary">Place order</button></a></td></table></div>
+      <div  id="main3" style="display: none;">
+        <table >
+          <tr><img src="img/men41.jpg" class="card-img-top" alt="..." style="border-radius: 10px;"id="img"><td style="color: black;">Pink Color T-shirt<br>RS 800</td></tr><tr>Quantity<input type="number" style="height: 35px;width: 35px;"><tr><button style="border: none; " onclick="btn3()"><i class="bi bi-x-lg" style="size: 20px;"></button></i></tr><td><a href="cart.html"><button type="button" class="btn btn-primary">Place order</button></a></td></table></div>
+          <div  id="main4" style="display: none;">
+            <table >
+              <tr><img src="img/men55.jpg" class="card-img-top" alt="..." style="border-radius: 10px;"id="img"><td style="color: black;">Half sleev T-shirt <br>RS 500</td></tr><tr>Quantity<input type="number" style="height: 35px;width: 35px;"><tr><button style="border: none; " onclick="btn4()"><i class="bi bi-x-lg" style="size: 20px;"></button></i></tr><td><a href="cart.html"><button type="button" class="btn btn-primary">Place order</button></a></td></table></div>
+              <div  id="main5" style="display: none;">
+                <table >
+                <tr><img src="img/men66.jpg" class="card-img-top" alt="..." style="border-radius: 10px;"id="img"><td style="color: black;">HOODIE <br>RS 900</td></tr><tr>Quantity<input type="number" style="height: 35px;width: 35px;"><tr><button style="border: none; " onclick="btn5()"><i class="bi bi-x-lg" style="size: 20px;"></button></i></tr><td><a href="cart.html"><button type="button" class="btn btn-primary">Place order</button></a></td></table></div>
+                <div  id="main6" style="display: none;">
+                  <table >
+                  <tr><img src="img/men77.jpg" class="card-img-top" alt="..." style="border-radius: 10px;"id="img"><td style="color: black;">Denim Shirt <br>RS 600</td></tr><tr>Quantity<input type="number" style="height: 35px;width: 35px;"><tr><button style="border: none; " onclick="btn6()"><i class="bi bi-x-lg" style="size: 20px;"></button></i></tr><td><a href="cart.html"><button type="button" class="btn btn-primary">Place order</button></a></td></table></div>
+                  <div  id="main7" style="display: none;">
+                  <table >
+                  <tr><img src="img/men88.jpg" class="card-img-top" alt="..." style="border-radius: 10px;"id="img"><td style="color: black;"> Hoodie And Joggers <br>RS 900</td></tr><tr>Quantity<input type="number" style="height: 35px;width: 35px;"><tr><button style="border: none; " onclick="btn7()"><i class="bi bi-x-lg" style="size: 20px;"></button></i></tr><td><a href="cart.html"><button type="button" class="btn btn-primary">Place order</button></a></td></table></div>
+                  <div  id="main8" style="display: none;">
+                    <table >
+                    <tr><img src="img/men99.jpg" class="card-img-top" alt="..." style="border-radius: 10px;"id="img"><td style="color: black;"> Vintage Collections <br>RS 1000</td></tr><tr>Quantity<input type="number" style="height: 35px;width: 35px;"><tr><button style="border: none; " onclick="btn8()"><i class="bi bi-x-lg" style="size: 20px;"></button></i></tr><td><a href="cart.html"><button type="button" class="btn btn-primary">Place order</button></a></td></table></div>
+                   
+                    <div  id="main9" style="display: none;">
+                      <table >
+                      <tr><img src="img/men1010.jpg" class="card-img-top" alt="..." style="border-radius: 10px;"id="img"><td style="color: black;"> Two Denim Shirt<br>RS 1000</td></tr><tr>Quantity<input type="number" style="height: 35px;width: 35px;"><tr><button style="border: none; " onclick="btn9()"><i class="bi bi-x-lg" style="size: 20px;"></button></i></tr><td><a href="cart.html"><button type="button" class="btn btn-primary">Place order</button></a></td></table></div>     
+                      <div  id="main10" style="display: none;">
+                        <table >
+                        <tr><img src="img/men1111.jpg" class="card-img-top" alt="..." style="border-radius: 10px;"id="img"><td style="color: black;"> white T-shirt <br>RS 250</td></tr><tr>Quantity<input type="number" style="height: 35px;width: 35px;"><tr><button style="border: none; " onclick="btn10()"><i class="bi bi-x-lg" style="size: 20px;"></button></i></tr><td><a href="cart.html"><button type="button" class="btn btn-primary">Place order</button></a></td></table></div>  
+                        <div  id="main11" style="display: none;">
+                          <table >
+                          <tr><img src="img/men1212.jpg" class="card-img-top" alt="..." style="border-radius: 10px;"id="img"><td style="color: black;"> One T-shirt <br>RS 200</td></tr><tr>Quantity<input type="number" style="height: 35px;width: 35px;"><tr><button style="border: none; " onclick="btn11()"><i class="bi bi-x-lg" style="size: 20px;"></button></i></tr><td><a href="cart.html"><button type="button" class="btn btn-primary">Place order</button></a></td></table></div>        
+                    </div>
+      <div class="modal-footer/">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    
+      </div>
+    </div>
+  </div>
+</div>
+  
+</div><br><br>
+  <!-- row1? -->
+    <div class="row">
+        <div class="col-md-3"><div class="card fun" style="width: 18rem;border: none;margin-left: 100px;margin-top: 20px;">
+            <img src="img/men1.jpg" class="card-img-top" alt="..." style="border-radius: 10px;" >
+            <div class="card-body no ">
+              <h5 class="card-title ">HoodiE</h5>
+              <p class="card-text">for Winter season</p>
+              <button class="btn btn-primary"
+                onclick="show()" id="add">Add To Cart</button>
+            </div>
+          </div></div>
+        <div class="col-md-3"><div class="card fun " style="width: 18rem; border: none; margin-left: 200px;margin-top: 20px;">
+            <img src="img/men2.jpg" class="card-img-top" alt="..." style="border-radius: 10px;">
+            <div class="card-body no">
+              <h5 class="card-title">OverSized T-Shirt</h5>
+              <p class="card-text text">Black color for HandSome</p>
+              <button class="btn btn-primary"   onclick="show1()" id="add">Add To Cart</button>
+            </div>
+          </div></div>
+        <div class="col-md-3 " ><div class="card fun" style="width: 18rem; border: none; margin-left: 300px;margin-top: 20px;">
+             <img src="img/men3.jpg" class="card-img-top" alt=""  style="border-radius: 10px;">
+             <div class="card-body no">
+              <h5 class="card-title">Pant And Shirt</h5>
+              <p class="card-text">Yellow color Lycra Shirt and Pant</p>
+              <button class="btn btn-primary"   onclick="show2()" id="add">Add To Cart</button>
+            </div>
+          </div></div>
+         </div>
+         <!-- row2? -->
+         <div class="row r">
+         <div class="col-md-3 "><div class="card funny " style="width: 18rem;border: none;margin-left: 100px;margin-top: 20px;">
+          <img src="img/men4.jpg" class="card-img-top" alt="..." style="border-radius: 10px;">
+          <div class="card-body not ">
+            <h5 class="card-title">OverSized</h5>
+            <p class="card-text">Pink Color</p>
+            <button class="btn btn-primary"   onclick="show3()" id="add">Add To Cart</button>
+          </div>
+        </div></div>
+         <div class="col-md-3 "><div class="card funny" style="width: 18rem;border: none;margin-left: 200px;margin-top: 20px;">
+          <img src="img/men5 (2).jpg" class="card-img-top" alt="..." style="border-radius: 10px;" >
+          <div class="card-body not ">
+            <h5 class="card-title">Half Sleeve</h5>
+            <p class="card-text">White Color for unique Collection </p>
+            <button class="btn btn-primary"   onclick="show4()" id="add" >Add To Cart</button>
+            
+          </div>
+        </div></div>
+         <div class="col-md-3 "><div class="card funny " style="width: 18rem;border: none;margin-left: 300px;margin-top: 20px;">
+          <img src="img/men6.jpg" class="card-img-top" alt="..." style="border-radius: 10px;" >
+          <div class="card-body not ">
+            <h5 class="card-title">For Unique  Hodie</h5>
+            <p class="card-text">Blue and White</p>
+            <button class="btn btn-primary"   onclick="show5()" id="add">Add To Cart</button>
+          </div>
+        </div></div>
+
+         </div>
+         <!-- row3? -->
+         <div class="row r" >
+          <div class="col-md-3 "><div class="card funy" style="width: 18rem;border: none;margin-left: 100px;margin-top: 20px;">
+            <img src="img/men7.jpg" class="card-img-top" alt="..." style="border-radius: 10px;" >
+            <div class="card-body Not ">
+              <h5 class="card-title">Denim Shirt With Hoodie</h5>
+              <p class="card-text">Wth 50% offers</p>
+              <button class="btn btn-primary"   onclick="show6()" id="add">Add To Cart</button>
+            </div>
+          </div></div>
+          <div class="col-md-3 "><div class="card funy" style="width: 18rem;border: none;margin-left: 200px;margin-top: 20px;">
+            <img src="img/men8.jpg" class="card-img-top" alt="..." style="border-radius: 10px;" >
+            <div class="card-body Not">
+              <h5 class="card-title">Sandal Color Hoodie and Jogger</h5>
+              <p class="card-text">Nice You Look</p>
+              <button class="btn btn-primary"   onclick="show7()" id="add">Add To Cart</button>
+            </div>
+          </div></div>
+          <div class="col-md-3 "><div class="card funy" style="width: 18rem;border: none;margin-left: 300px;margin-top: 20px;">
+            <img src="img/men9.jpg" class="card-img-top" alt="..." style="border-radius: 10px;" >
+            <div class="card-body Not ">
+              <h5 class="card-title">POV its Vintage </h5>
+              <p class="card-text">with Full Sleeve T-Shirt and pant </p>
+              <button class="btn btn-primary"   onclick="show8()" id="add">Add To Cart</button>
+            </div>
+          </div></div>
+         </div>
+         <!-- row4? -->
+         <div class="row r" >
+          <div class="col-md-3 "><div class="card funy" style="width: 18rem;border: none;margin-left: 100px;margin-top: 20px;">
+            <img src="img/men10 - Copy.jpg" class="card-img-top" alt="..." style="border-radius: 10px;" >
+            <div class="card-body Not ">
+              <h5 class="card-title">Denim Shirt</h5>
+              <p class="card-text">2 Shirt Just RS 1000</p>
+               <button class="btn btn-primary"   onclick="show9()" id="add">Add To Cart</button>
+            </div>
+          </div></div>
+          <div class="col-md-3 "><div class="card funy" style="width: 18rem;border: none;margin-left: 200px;margin-top: 20px;">
+            <img src="img/men11.jpg" class="card-img-top" alt="..." style="border-radius: 10px;" >
+            <div class="card-body Not">
+              <h5 class="card-title">Trending T-shirt</h5>
+              <p class="card-text"> Half Sleeve White T-Shirt</p>
+                <button class="btn btn-primary"   onclick="show10()" id="add">Add To Cart</button>
+            </div>
+          </div></div>
+          <div class="col-md-3 "><div class="card funy" style="width: 18rem;border: none;margin-left: 300px;margin-top: 20px;">
+            <img src="img/men12.jpg" class="card-img-top" alt="..." style="border-radius: 10px;" >
+            <div class="card-body Not ">
+              <h5 class="card-title">Pick your Fav Color</h5>
+              <p class="card-text">Buy Your Fav Color</p>
+                <button class="btn btn-primary"   onclick="show11()" id="add">Add To Cart</button>
+            </div>
+          </div></div>
+         </div>
+         <!-- footer? -->
+         <header>
+    
+          <span class='bubble'></span>
+        </header>
+        <footer style="position: relative;">
+          <header>
+            <h2 id="foo" style="font-size: 40px;">RARE COLTHINGZZ</h2>
+            <p>"For Fashion and Trending Cloths ,for you<br>The quality is Best and Best offers are also ready "</p>
+            <ul class='icons'>
+              <ion-icon class='icon' name="logo-facebook"><i class="bi bi-facebook"></i></ion-icon>
+            
+              <ion-icon class='icon' name="logo-instagram"><i class="bi bi-instagram"></i></ion-icon>
+              <ion-icon class='icon' name="logo-twitter"><i class="bi bi-twitter"></i></ion-icon>
+            
+            </ul>
+          </header>
+          <aside>
+            <ul class='category'>
+              <li>
+                <h3 style="font-size: 35px;">Project</h3>
+              </li>
+              <li>Houses</li>
+              <li>Rooms</li>
+              <li>Flats</li>
+              <li>Apartments</li>
+            </ul>
+            <ul class='category'>
+              <li>
+                <h3 style="font-size: 35px;">Company</h3>
+              </li>
+             <li><a href="about.html" style="text-decoration: none; color:rgba(255,255,255,0.5);" class="com">About Us</a></li>
+              <li><a href="" style="text-decoration: none; color:rgba(255,255,255,0.5);" class="com">Clothingzz Army </a></li>
+              <li><a href="" style="text-decoration: none; color:rgba(255,255,255,0.5);"class="com" >Security</a></li>
+              <li></li>
+            </ul>
+            
+            <ul class='category'>
+              <li>
+                <h3 style="font-size: 35px;">Help</h3>
+              </li>
+              <li >Privacy</li>
+              <li><a href="contact.html" style="text-decoration: none; color:rgba(255,255,255,0.5);" class="com">Contact</a></li> 
+              <li>FAQs</li>
+              
+            </ul>
+           
+          </aside>
+          
+        </footer>
+        <h6 style="margin-left: 550px; ;position: absolute;">@ R A R E C L O T H I N G Z Z</h6>
+      </main>
+    
+
+
+      <script src="script/men.js"></script>
+   
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+  </body>
+
+</html>

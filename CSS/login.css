@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+#h1{
+    color: white;
+}
+#register{
+    padding-left: 30px;
+}
+#login{
+    width: 380px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.384);
+    text-align: center;
+   border-radius: 10px;
+   margin-left: 35%;
+   margin-top: 8%;
+}
+
+h4{
+color: rgba(0, 0, 0, 0.692);
+font-size: 10px;
+margin-left: 600px;
+}
+body{
+    background-size: cover;
+}
+#err6{
+    font-weight: lighter;
+    font-size: 9px;
+    padding-right: 185px
+}
+#err7{
+    font-weight: lighter;
+    font-size: 9px;
+    padding-right: 185px
+}
+#ps{
+    background: none;
+    border: 1px rgba(0, 0, 0, 0.342) solid;
+    height: 35px;
+    width: 300px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 30px;
+    margin-left: 25px;
+    color: rgba(255, 255, 255, 0.753);
+    
+  
+}
+
+#em{
+    background: none;
+    border: 1px rgba(0, 0, 0, 0.342) solid;
+    height: 35px;
+    width: 300px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 8px;
+    margin-left: 25px;
+    color: rgba(255, 255, 255, 0.753);
+    
+}
+#ul{
+    text-decoration: none;
+    font-size: 11px;
+    
+}
+#me{
+    margin-right: 220px;
+    margin-left: 40px;
+    color: rgba(0, 255, 255, 0.575);
+}
+#sub{
+    height: 35px;
+    width: 300px; 
+    margin-top: 8px;
+    margin-left: 25px;
+    color: white;
+    background-color: rgba(0, 255, 255, 0.747);
+    border: none;
+    border-radius: 10px;
+}
+#sub:hover{
+    background-color: rgba(0, 255, 255, 0.308);
+    cursor: pointer;
+}
+.log{
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.432);
+}

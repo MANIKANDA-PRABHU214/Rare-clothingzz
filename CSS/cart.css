@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#n{
+    border-radius: 5px;
+    height: 20px;
+    border-color: black;
+    color: rgba(0, 0, 0, 0.466);
+    background-color: rgba(128, 0, 128, 0.651);
+    border: none;
+    color: white;
+}body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#p,#q{
+    border-radius: 5px;
+    height: 20px;
+    border-color: black;
+    color: rgba(0, 0, 0, 0.466); 
+    background-color: rgba(128, 0, 128, 0.651);
+    border: none; 
+    color: white;
+}
+#a{
+    border-radius: 5px;
+    height: 100px;
+    border-color: black;
+   background-color: rgba(128, 0, 128, 0.651);
+   border: none;
+    color: rgba(0, 0, 0, 0.466);   
+    color: white;
+}#C{
+    height: 30px;
+    width: 150px;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+#myform{
+   background-color:rgba(255, 255, 255, 0.589);
+   border-radius: 15px;
+    height: 500px;
+    width: 400px;
+    margin-left: 33%;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 3%;
+}

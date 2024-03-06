@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Custom01{
+    height: 35px;
+    width: 300px;
+    outline: none;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    margin-left: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    margin-top: 10px;
+
+}
+#Custom02{
+    height: 35px;
+    width: 300px;
+    outline: none;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    margin-left: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    margin-top: 10px;
+}
+#Custom03{
+    height: 35px;
+    width: 300px;
+    outline: none;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    margin-left: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    margin-top: 10px;
+}
+#Custom04{
+    height: 35px;
+    width: 300px;
+    outline: none;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    margin-left: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    margin-top: 20px;
+
+}
+.col5{
+    color: rgba(0, 0, 0, 0.459);
+}
+.q{
+    margin: 10px;
+    margin-bottom: 80px;
+    position: relative;
+}
+#check{
+    margin-bottom: 30px;
+    position: absolute;
+    margin-top: 10p;
+    padding-bottom: 100px;
+}
+#sub{
+    background-color: yellow;
+    border: none;
+    height: 35px;
+    width: 300px;
+    outline: none;
+    border-radius: 7px;
+padding-top: px;
+}
+#myform{
+
+    height: 500px;
+    width:360px ;
+    margin-left: 33%;
+    margin-top: 7%;
+    text-align: center;
+    border-radius: 20px;
+    background-color:rgba(255, 255, 255, 0.247) ;
+    }
+  
